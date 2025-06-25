@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+  <script defer src="main.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav class="top-nav">
+      <ul class="Links">
+        <li onclick="Navigate(0)"><i class="fas fa-home"></i> Home</li>
+        <li onclick="Navigate(1)"><i class="fas fa-user"></i> About Me</li>
+        <li onclick="Navigate(2)"><i class="fas fa-cogs"></i> Services</li>
+        <li onclick="Navigate(3)"><i class="fas fa-images"></i> Gallery</li>
+        <li onclick="Navigate(4)"><i class="fas fa-envelope"></i> Contact Me</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="custom-cursor"></div>
+    <div class="swiper mySwiper">
+      <div class="SlideContainer swiper-wrapper">
+
+        <!-- ✅ MODIFIED HOME SLIDE -->
+        <div class="swiper-slide home-slide">
+          <video autoplay muted loop class="background-video" preload="auto">
+            <source src="video.mp4" type="video/mp4" />
+          </video>
+          <div class="HomeSectionCentered">
+            <div class="SideImg">
+              <img src="picture.png" alt="Profile Picture"/>
+            </div>
+            <div class="HomeContent">
+              <h1>Hi! I'm <span class="stylized-name">Balakrishnan</span>,</h1>
+              <h2>A <span class="proffesions">Gamer Developer</span></h2>
+              <p class="heroline" style="text-align: justify;">
+                Enthusiastic and detail-oriented Junior Game Developer with a solid foundation in game design and programming principles. Passionate about creating engaging and interactive gaming experiences. Familiar with game engines like Unity, with hands-on experience from academic projects, game jams, or personal prototypes. Quick to learn new tools and technologies, and eager to contribute to a collaborative development environment.
+              </p>
+              <div class="buttonGroup">
+                <a href="https://www.linkedin.com/in/balakrishnan-k-75642b321/"><button>Hire Me</button></a>
+                <a href="mailto:krishnan5102002@gmail.com"><button>Contact Me</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+        <video autoplay muted loop class="background-video" preload="auto">
+        <source src="video.mp4" type="video/mp4">
+                    </video>
+                    <div class="about-us">
+                    <h1 class="heading">About Me</h1>
+                    <h3 class="sub-heading">I'm Balakrishnan, <span class="proffesions">A Game Developer</span></h3>
+                    <p class="aboutme-deatils">
+A passionate and detail-oriented Junior Game Developer driven by creativity and curiosity. I specialize in building interactive, fun, and immersive gaming experiences using Unity and C#. Though I'm early in my journey, I’ve already created a few personal projects and participated in game jams to sharpen my skills.
+I enjoy exploring game mechanics, level design, and player experience. Whether it's writing clean code, fixing bugs, or designing fun gameplay, I'm always excited to learn more and collaborate with others in the gaming industry.
+Currently, I'm looking for opportunities to grow as a developer, contribute to exciting projects, and turn my passion for games into a meaningful career.
+                    </p>
+                    <div class="about-me-divison">
+                        <div class="about-me-table">
+                            <li><span>Country:</span> India</li>
+                            <li><span>Avability:</span> 24/7 </li>
+                            <li><span>Age</span>:22</li>
+                            <li><span>Phone</span>:8870889691</li>
+                            <li><span>Language Used:</span>HTML</li>
+                            <li><span>Degree</span>:MCA Master of computer applications </li>
+                        </div>
+
+                        <div class="skill-bar">
+                            <li>
+                                <p>HTML</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:99%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>CSS</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:80%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>Python</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:50%"></div>
+                                </div>
+                            </li>
+                            <li>
+                                <p>SQL</p>
+                                <div class="bar">
+                                    <div class="active-bar" style="width:50%"></div>
+                                </div>
+                            </li>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="swiper-slide services">
+                    <video autoplay muted loop class="background-video" preload="auto">
+                        <source src="video.mp4" type="video/mp4">
+                    </video>
+
+                    <h1 class="heading">Services</h1>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h2>2D Level Design</h2>
+                        <p>Beginner 2D Level Designer passionate about creating fun, balanced game levels using Unity and basic C# scripting</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-film"></i></div>
+                        <h2>video Editing</h2>
+                        <p>Aspiring Video Editor with a strong passion for storytelling and hands-on experience using Adobe Premiere Pro.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>Web developer</h2>
+                        <p>Passionate Web Developer skilled in building responsive and user-friendly websites using HTML, CSS, and JavaScript.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide gallery">
+                                        <video autoplay muted loop class="background-video" preload="auto">
+                        <source src="video.mp4" type="video/mp4">
+                    </video>
+
+                    <h1 class="heading">Gallery</h1>
+                    <div class="project"><img src="56f5c6e23a1afc15f5a13175ab0172e9.gif" alt="">
+                    <p style="text-align: justify; line-height: 1.6;">This is a scene from our side-scrolling pixel art platformer, set in a tranquil, mystical forest. The player begins on a grassy ledge, overlooking a reflective water body teeming with animated fish, adding life to the environment. Unique, abstract tree structures double as platforms, creating opportunities for exploration and traversal. The HUD features a classic heart-based health system and collectible or ability slots, hinting at deeper gameplay mechanics. The art style and ambiance aim to immerse players in a calm yet adventurous world.</p>
+                    </div>
+                   
+                </div>
+                <div class="swiper-slide contactMe">
+                                        <video autoplay muted loop class="background-video" preload="auto">
+                        <source src="video.mp4" type="video/mp4">
+                    </video>
+
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contactinfo"><i class="fa-solid fa-phone"></i>
+                        <h3>Mobile No</h3>
+                        <p>+91-8870889691</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-solid fa-location-dot"></i>
+                        <h3>Location</h3>
+                        <p>India</p>
+                    </div>
+                    <div class="contactinfo"><i class="fa-regular fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>krishnan5102002@gmail.com</p>
+                    </div>
+                    <form>
+                        <h2>Send Me A Message
+  <div class="SocialLinks">
+    <a href="https://github.com/balakrishnan510"  target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="https://www.instagram.com/krixhh.exe/" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/balakrishnan-k-75642b321/" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  </div>
+</h2>
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="email">
+                        <textarea rows="10" placeholder="Type your Message Here..."></textarea>
+                        <button class="primary">Send</button>
+
+                    </form>
+                </div>
+            </div>
+    </main>
+
+</body>
+</html>
